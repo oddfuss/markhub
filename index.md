@@ -6,6 +6,7 @@
 setTimeout(() => {
 document.getElementById('forkme_banner').remove()
 document.getElementById('footer_wrap').remove()
-}, 10)
+document.getElementById('project_title').innerHtml = '<img src="./markhub.png" />'
+}, 100)
 
 </script>
