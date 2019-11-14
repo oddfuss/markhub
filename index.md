@@ -1,6 +1,6 @@
 <style>
     h1 { display :none !important }
-    .markdown-body {
+    div.container-lg.markdown-body {
         padding: 0 !important;
         margin: 0 !important;
     }
