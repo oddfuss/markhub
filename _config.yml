@@ -1,2 +1,4 @@
+# theme: jekyll-theme-slate
+remote_theme: owner/name
 github:
   is_project_page: false
