@@ -6,7 +6,7 @@
 setTimeout(() => {
 // document.getElementById('forkme_banner').remove()
 // document.getElementById('footer_wrap').remove()
-document.querySelector('.container-lg').innerHtml = '<img src="./markhub.png" />'
-}, 10)
+document.querySelector('h1 a').innerHtml = '<img src="./markhub.png" />'
+}, 50)
 
 </script>
