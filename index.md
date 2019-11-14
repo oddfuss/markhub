@@ -17,13 +17,11 @@
     </div>
     <div>
         <iframe
-            src="https://player.twitch.tv/?video=PleasantAthleticJackalSMOrc"
+            src="https://player.twitch.tv/?video=v40464143&autoplay=true&muted=false"
             height="400"
             width="400"
             frameborder="false"
             scrolling="false"
-            autoplay="true"
-            muted="false"
             allowfullscreen="true">
         </iframe>
     </div>
