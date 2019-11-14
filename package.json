@@ -1,0 +1,8 @@
+{
+  "name": "markhub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/oddfuss/markhub.git",
+  "author": "Yair Tavor <yairtavor@gmail.com>",
+  "license": "MIT"
+}
