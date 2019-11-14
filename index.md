@@ -17,9 +17,10 @@
     </div>
     <div>
         <iframe
-            src="https://player.twitch.tv/?video=v40464143&autoplay=true&muted=false"
+            src="https://clips.twitch.tv/embed?clip=PleasantAthleticJackalSMOrc&autoplay=false"
             height="400"
             width="400"
+            preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
