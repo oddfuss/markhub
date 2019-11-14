@@ -17,12 +17,14 @@
     </div>
     <div>
         <iframe
-            src="https://player.twitch.tv/?https://www.twitch.tv/bookclubforgames/clip/PleasantAthleticJackalSMOrc"
-            height="500"
+            src="https://player.twitch.tv/?video=PleasantAthleticJackalSMOrc"
+            height="400"
             width="400"
             frameborder="false"
-            scrolling="<scrolling>"
-            allowfullscreen="<allowfullscreen>">
+            scrolling="false"
+            autoplay="true"
+            muted="false"
+            allowfullscreen="true">
         </iframe>
     </div>
 </div>
