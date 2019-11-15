@@ -29,6 +29,7 @@
     .markhub__girlz {
         display: flex;
         flex-wrap: wrap;
+        color: white;
     }
 
     .markhub__girl {
