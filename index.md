@@ -3,6 +3,7 @@
     div.container-lg.markdown-body {
         padding: 0 !important;
         margin: 0 !important;
+        max-width: none !important;
     }
     html, body {
         background: #1a1a1a !important
