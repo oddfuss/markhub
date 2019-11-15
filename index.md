@@ -12,6 +12,40 @@
     .markhub__content,
     .markhub__header {
         padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .markhub__search {
+        margin-left: 60px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .markhub__search-input {
+        border: 1px solid rgba(255,255,255,0.3);
+        background: rgba(255,255,255,0.03);
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 16px;
+        width: 350px;
+        color: white;
+    }
+
+    .markhub__search-input::placeholder {
+        color: rgba(255,255,255,0.15)
+    }
+
+    .markhub__search-button {
+        display: inline;
+        background: #fe9900;
+        color: #000;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 10px;
     }
 
     .sub-title {
@@ -54,6 +88,10 @@
 <div class="markhub">
     <div class="markhub__header">
         <img src="markhub.png" />
+        <div class="markhub__search" >
+            <input class="markhub__search-input" type="tex" placeholder="Dont't type here, this doesn't really works" />
+            <div class="markhub__search-button">Search</div>
+        </div>
     </div>
     <div class="markhub__content">
         <h2 class="sub-title">Hottest videos</h2>
