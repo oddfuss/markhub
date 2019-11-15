@@ -9,7 +9,10 @@
         background: #1a1a1a !important
     }
 
-    .markhub__content,
+    .markhub__content{
+        padding: 10px;
+    }
+    
     .markhub__header {
         padding: 10px;
         display: flex;
@@ -89,7 +92,7 @@
     <div class="markhub__header">
         <img src="markhub.png" />
         <div class="markhub__search" >
-            <input class="markhub__search-input" type="tex" placeholder="Dont't type here, this doesn't really works" />
+            <input class="markhub__search-input" type="text" placeholder="Don't type here, this doesn't really works" />
             <div class="markhub__search-button">Search</div>
         </div>
     </div>
