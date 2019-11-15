@@ -17,6 +17,11 @@
 
     .markhub__vids {
         display: flex;
+        flex-wrap: wrap;
+    }
+
+    .markhub__clip {
+        margin: 10px;
     }
 </style>
 <div class="markhub">
@@ -27,51 +32,56 @@
         <h2 class="sub-title">Hottest videos</h2>
     </div>
     <div class="markhub__vids">
-        <iframe
+       <iframe
+            class="markhub__clip"
             src="https://clips.twitch.tv/embed?clip=PleasantAthleticJackalSMOrc&autoplay=false"
-            height="400"
-            width="400"
+            height="300"
+            width="300"
             preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
         </iframe>
         <iframe
+            class="markhub__clip"
             src="https://clips.twitch.tv/embed?clip=SmallStylishDurianPMSTwin&autoplay=false"
-            height="400"
-            width="400"
+            height="300"
+            width="300"
             preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
         </iframe>
         <iframe
+            class="markhub__clip"
             src="https://clips.twitch.tv/embed?clip=CuteHungryBanana4Head&autoplay=false"
-            height="400"
-            width="400"
+            height="300"
+            width="300"
             preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
         </iframe>
         <iframe
+            class="markhub__clip"
             src="https://clips.twitch.tv/embed?clip=StormyGrotesqueStarNerfRedBlaster&autoplay=false"
-            height="400"
-            width="400"
+            height="300"
+            width="300"
             preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
         </iframe>
         <iframe
+            class="markhub__clip"
             src="https://clips.twitch.tv/embed?clip=SwissLitigiousBaconDatBoi&autoplay=false"
-            height="400"
-            width="400"
+            height="300"
+            width="300"
             preload="none"
             frameborder="false"
             scrolling="false"
             allowfullscreen="true">
-        </iframe>
+        </iframe> 
     </div>
 </div>
 <script>
