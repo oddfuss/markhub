@@ -170,6 +170,12 @@
                 allowfullscreen="true">
             </iframe> 
         </div>
+        <div>
+            <h2 class="sub-title">Sexy Pics</h2>
+            <div>
+                <img src="chat1.png" />
+            </div>
+        </div>
         <h2 class="sub-title">New Girlz</h2>
         <div class="markhub__girlz">
             <!--------------[Aloy]--------------->
